@@ -33,6 +33,8 @@ venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
 
+---
+
 ##👨‍💻 Penulis
 
 Apriadzandy Putra – Universitas Muhammadiyah Malang
