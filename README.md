@@ -16,7 +16,6 @@ Repositori ini berisi implementasi metode Case-Based Reasoning (CBR) untuk menga
 ┃ ┣ 03_retrieval.ipynb
 ┃ ┣ 04_prediksi_solusi.ipynb
 ┃ ┗ 05_evaluasi.ipynb
-## ⚙️ Instalasi
 
 
 ---
@@ -33,3 +32,8 @@ source venv/bin/activate     # Linux/macOS
 venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
+
+👨‍💻 Penulis
+Apriadzandy Putra – Universitas Muhammadiyah Malang
+
+M. Haidar Afif Al Azizi – Universitas Muhammadiyah Malang
