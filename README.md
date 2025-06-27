@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ---
 
-##👨‍💻 Penulis
+👨‍💻PENULIS
 
 Apriadzandy Putra – Universitas Muhammadiyah Malang
 
