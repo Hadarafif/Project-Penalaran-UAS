@@ -1,51 +1,35 @@
-# Project-Penalaran-UAS
+# 🔍 Sistem Analisis Putusan Hukum Berbasis Case-Based Reasoning
 
-Proyek ini mengimplementasikan sistem Case-Based Reasoning (CBR) untuk menganalisis dan mencocokkan kasus-kasus putusan pengadilan pidana, khususnya kasus pencurian di Pengadilan Negeri Sumenep. Sistem ini dirancang untuk membantu pencarian preseden hukum berdasarkan kemiripan isi dokumen putusan.
+Repositori ini berisi implementasi metode Case-Based Reasoning (CBR) untuk menganalisis kasus hukum berbasis data putusan pengadilan Indonesia. Proyek ini terdiri dari pipeline end-to-end mulai dari pengambilan data, representasi kasus, pencarian kasus serupa, hingga evaluasi hasil solusi yang diusulkan.
 
-## 📁 Struktur Folder
+---
 
-- data/  
-  Berisi data mentah atau terstruktur seperti hasil scraping dan preprocessed file.
+## 📁 Struktur Proyek
+📦cbr-hukum/
+┣ 📜README.md
+┣ 📜requirements.txt
+┣ 📁data/
+┃ ┗ putusan_clean.csv
+┣ 📁notebooks/
+┃ ┣ 01_scraping.ipynb
+┃ ┣ 02_representasi.ipynb
+┃ ┣ 03_retrieval.ipynb
+┃ ┣ 04_prediksi_solusi.ipynb
+┃ ┗ 05_evaluasi.ipynb
+## ⚙️ Instalasi
 
-- ipynb/  
-  Berisi notebook tahap-tahap pemrosesan CBR:
-  - 01_casebase.ipynb
-  - 02_caserepresentation.ipynb
-  - 03_retreival.ipynb
-  - 04_predict.ipynb
-  - 05_modelevaluation.ipynb
 
-- Scraping_PA_SUMENEP.ipynb  
-  Notebook scraping data putusan dari situs Mahkamah Agung.
+---
 
-- putusan_ma_2025-06-25.csv  
-  Dataset hasil scraping dan pembersihan yang siap digunakan untuk representasi kasus.
+## ⚙️ Instalasi
 
-## ⚙️ Teknologi dan Library
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/username/cbr-hukum.git
+   cd cbr-hukum
 
-- Python 3.x
-- scikit-learn (TF-IDF, cosine_similarity)
-- pandas, numpy (manipulasi data)
-- nltk, Sastrawi (pemrosesan teks Bahasa Indonesia)
-- matplotlib, seaborn (visualisasi dan evaluasi)
+python -m venv venv
+source venv/bin/activate     # Linux/macOS
+venv\Scripts\activate        # Windows
 
-## 🔁 Alur CBR
-
-1. Preprocessing teks putusan (cleaning, stemming)
-2. Representasi dokumen menggunakan TF-IDF
-3. Pengukuran kemiripan antar kasus menggunakan cosine similarity
-4. Reuse solusi kasus terdahulu dengan metode:
-   - Majority Vote
-   - Weighted Similarity
-5. Evaluasi performa model dengan confusion matrix, accuracy, precision, recall, dan F1-score
-
-## 📊 Hasil Evaluasi
-
-- Accuracy: ±81%
-- F1-Score: 0.81
-- Visualisasi Confusion Matrix tersedia di notebook evaluasi
-
-## 📌 Tujuan
-
-Proyek ini bertujuan mendemonstrasikan bagaimana teknologi CBR dapat digunakan untuk mendukung penalaran hukum dan sistem preseden berbasis data historis putusan.
-"""
+pip install -r requirements.txt
