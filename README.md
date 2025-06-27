@@ -49,7 +49,9 @@ Proyek ini mengimplementasikan sistem Case-Based Reasoning (CBR) untuk menganali
 
 Proyek ini bertujuan mendemonstrasikan bagaimana teknologi CBR dapat digunakan untuk mendukung penalaran hukum dan sistem preseden berbasis data historis putusan.
 """
+---
 👨‍💻 Penulis
+
 Apriadzandy Putra – Universitas Muhammadiyah Malang
 
 M. Haidar Afif Al Azizi – Universitas Muhammadiyah Malang
