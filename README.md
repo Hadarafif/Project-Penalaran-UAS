@@ -33,7 +33,7 @@ venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
 
-👨‍💻 Penulis
+##👨‍💻 Penulis
 Apriadzandy Putra – Universitas Muhammadiyah Malang
 
 M. Haidar Afif Al Azizi – Universitas Muhammadiyah Malang
