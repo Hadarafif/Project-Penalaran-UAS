@@ -1,0 +1,22 @@
+[
+  {
+    "query_id": "Q1",
+    "query": "Apa yang terjadi dalam kasus pencurian motor di Sumenep?"
+  },
+  {
+    "query_id": "Q2",
+    "query": "Bagaimana putusan hakim pada kasus pencurian sapi?"
+  },
+  {
+    "query_id": "Q3",
+    "query": "Apa hasil sidang kasus perceraian di PA Maros?"
+  },
+  {
+    "query_id": "Q4",
+    "query": "Bagaimana amar putusan kasus pencurian laptop?"
+  },
+  {
+    "query_id": "Q5",
+    "query": "Apa keputusan hakim dalam kasus penggugat perceraian?"
+  }
+]

@@ -1,0 +1,6 @@
+query_id,predicted_solution,method
+1,Dipidana 2 tahun,TF-IDF
+2,Mengembalikan uang koperasi,SVM
+3,Dijatuhi pidana penjara 5 tahun,BERT
+4,Gugatan tidak diterima,TF-IDF
+5,Dihukum 1 tahun 6 bulan,SVM

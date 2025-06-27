@@ -1,0 +1,4 @@
+method,accuracy
+BERT,1.0
+SVM,1.0
+TF-IDF,1.0

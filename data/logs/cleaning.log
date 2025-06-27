@@ -1,0 +1,46 @@
+[OK] case_001.txt
+[OK] case_002.txt
+[ERROR] case_003.txt - object of type 'float' has no len()
+[OK] case_004.txt
+[ERROR] case_005.txt - object of type 'float' has no len()
+[OK] case_006.txt
+[ERROR] case_007.txt - object of type 'float' has no len()
+[ERROR] case_008.txt - object of type 'float' has no len()
+[OK] case_009.txt
+[OK] case_010.txt
+[OK] case_011.txt
+[OK] case_012.txt
+[ERROR] case_013.txt - object of type 'float' has no len()
+[OK] case_014.txt
+[ERROR] case_015.txt - object of type 'float' has no len()
+[OK] case_016.txt
+[OK] case_017.txt
+[OK] case_018.txt
+[ERROR] case_019.txt - object of type 'float' has no len()
+[OK] case_020.txt
+[OK] case_021.txt
+[ERROR] case_022.txt - object of type 'float' has no len()
+[OK] case_023.txt
+[ERROR] case_024.txt - object of type 'float' has no len()
+[OK] case_025.txt
+[OK] case_026.txt
+[OK] case_027.txt
+[OK] case_028.txt
+[OK] case_029.txt
+[OK] case_030.txt
+[ERROR] case_031.txt - object of type 'float' has no len()
+[ERROR] case_032.txt - object of type 'float' has no len()
+[ERROR] case_033.txt - object of type 'float' has no len()
+[OK] case_034.txt
+[OK] case_035.txt
+[ERROR] case_036.txt - object of type 'float' has no len()
+[OK] case_037.txt
+[OK] case_038.txt
+[ERROR] case_039.txt - object of type 'float' has no len()
+[OK] case_040.txt
+[OK] case_041.txt
+[OK] case_042.txt
+[OK] case_043.txt
+[OK] case_044.txt
+[OK] case_045.txt
+[OK] case_046.txt
